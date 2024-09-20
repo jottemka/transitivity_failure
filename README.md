@@ -1,13 +1,11 @@
 # How Prevalent is Transitivity-Failure in Bayesian Confirmation?
 
-This repo contains the code for a Monte Carlo approximation of the prevalence of transitivity-failure in Bayesian confirmation. Results for other inference patterns from non-monotonic logic are also provided. 
+This repo contains the code for a Monte Carlo approximation of the prevalence of transitivity-failure in Bayesian confirmation. Results for other inference patterns from non-monotonic reasoning and the logic of conditionals are also provided. 
 
 The results are published here: https://www.journals.uchicago.edu/doi/10.1086/731830
 
 ## Results
 
-<style type="text/css">
-</style>
 <table id="T_2c408">
   <thead>
     <tr>
@@ -76,7 +74,7 @@ The results are published here: https://www.journals.uchicago.edu/doi/10.1086/73
 </table>
 
 
-## Environment
+## Virtual Environment Setup
 
 Use the requirements file to create a new environment for this task. 
 
