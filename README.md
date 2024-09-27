@@ -4,6 +4,20 @@ This repo contains the code for a Monte Carlo approximation of the prevalence of
 
 The results are published here: https://www.journals.uchicago.edu/doi/10.1086/731830
 
+## Literature on Transitivity in Bayesian Confirmation
+
+1. https://doi.org/10.1086/288279 
+
+2. https://doi.org/10.1086/289089 
+
+3. https://link.springer.com/chapter/10.1007/978-94-017-2300-8_12
+
+4. https://www.journals.uchicago.edu/doi/abs/10.1093/bjps/54.4.613
+
+5. https://link.springer.com/article/10.1007/s13194-011-0033-7
+
+6. https://link.springer.com/article/10.1007/s10670-020-00349-7
+
 ## Results
 
 <table id="T_2c408">
@@ -72,7 +86,6 @@ The results are published here: https://www.journals.uchicago.edu/doi/10.1086/73
     </tr>
   </tbody>
 </table>
-
 
 ## Virtual Environment Setup
 
