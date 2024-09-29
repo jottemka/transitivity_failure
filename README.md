@@ -2,9 +2,9 @@
 
 This repo contains the code for a Monte Carlo approximation of the prevalence of transitivity-failure in Bayesian confirmation. Results for other inference patterns from non-monotonic reasoning and the logic of conditionals are also provided. 
 
-The results are published in the following paper: https://www.journals.uchicago.edu/doi/10.1086/731830
+The results are published here: https://www.journals.uchicago.edu/doi/10.1086/731830
 
-A penultimate version of the paper can also be found in the paper folder of this repo.
+A penultimate version of the paper can be found  here: https://github.com/jottemka/transitivity_failure/blob/1cbcee8356a2d79dc0bef647c299de2d73079e83/transitivity.pdf
 
 ## Literature on Transitivity in Bayesian Confirmation
 
