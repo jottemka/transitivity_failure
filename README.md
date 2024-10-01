@@ -1,24 +1,14 @@
 # How Prevalent is Transitivity-Failure in Bayesian Confirmation?
 
-This repo contains the code for a Monte Carlo approximation of the prevalence of transitivity-failure in Bayesian confirmation. Results for other inference patterns from non-monotonic reasoning and the logic of conditionals are also provided. 
+This repo contains the code for a Monte Carlo approximation of the prevalence of transitivity-failure. Results for other inference patterns from non-monotonic reasoning and the logic of conditionals are also provided. 
 
-The results are published here: https://www.journals.uchicago.edu/doi/10.1086/731830
+The results are published in the British Journal for the Philosophy of Science:
 
-A penultimate version of the paper can be found  here: https://github.com/jottemka/transitivity_failure/blob/1cbcee8356a2d79dc0bef647c299de2d73079e83/transitivity.pdf
+- https://www.journals.uchicago.edu/doi/10.1086/731830
 
-## Literature on Transitivity in Bayesian Confirmation
+A penultimate version of the paper can be found here:
 
-1. https://doi.org/10.1086/288279 
-
-2. https://doi.org/10.1086/289089 
-
-3. https://link.springer.com/chapter/10.1007/978-94-017-2300-8_12
-
-4. https://www.journals.uchicago.edu/doi/abs/10.1093/bjps/54.4.613
-
-5. https://link.springer.com/article/10.1007/s13194-011-0033-7
-
-6. https://link.springer.com/article/10.1007/s10670-020-00349-7
+- https://github.com/jottemka/transitivity_failure/blob/1cbcee8356a2d79dc0bef647c299de2d73079e83/transitivity.pdf
 
 ## Results
 
@@ -88,6 +78,22 @@ A penultimate version of the paper can be found  here: https://github.com/jottem
     </tr>
   </tbody>
 </table>
+
+
+## Further Reading
+
+1. https://doi.org/10.1086/288279 
+
+2. https://doi.org/10.1086/289089 
+
+3. https://link.springer.com/chapter/10.1007/978-94-017-2300-8_12
+
+4. https://www.journals.uchicago.edu/doi/abs/10.1093/bjps/54.4.613
+
+5. https://link.springer.com/article/10.1007/s13194-011-0033-7
+
+6. https://link.springer.com/article/10.1007/s10670-020-00349-7
+
 
 ## Virtual Environment Setup
 
