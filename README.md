@@ -1,6 +1,6 @@
 # How Prevalent is Transitivity-Failure in Bayesian Confirmation?
 
-It is a well-known fact among researchers working on probabilistic methods that transitivity can *fail* for Bayesian confirmation. That is, it is possible that A confirms B and B confirms C while A fails to confirm C, or more formally:
+It is a well-known fact among researchers working on probabilistic methods that transitivity can *fail* for Bayesian confirmation. That is, it is possible that A confirms B and B confirms C while A fails to confirm C. Or more formally, it is possible that the following conditions are jointly satisfied:
 
 1. $P(B|A)>P(B)$
 1. $P(C|B)>P(C)$
@@ -96,7 +96,7 @@ The table below also shows the results for other patterns from non-monotonic rea
   </tbody>
 </table>
 
-These results show that even though transitivity is not generally valid for Bayesian confirmation, a transitivity-style inference is more likely right than wrong. However, it is more likely wrong than instances of other inference patterns.
+So, even though transitivity is not generally valid for Bayesian confirmation, transitivity-style inferences are more likely right than wrong. Nevertheless, they are more likely wrong than instances of other inference patterns.
 
 ## Further Reading
 
