@@ -1,6 +1,12 @@
 # How Prevalent is Transitivity-Failure in Bayesian Confirmation?
 
-It is a well-known fact among researchers working on probabilistic methods that transitivity can *fail* for Bayesian confirmation. That is, it is possible that A confirms B and B confirms C while A fails to confirm C. Still, there is a growing number of conditions in the literature
+It is a well-known fact among researchers working on probabilistic methods that transitivity can *fail* for Bayesian confirmation. That is, it is possible that A confirms B and B confirms C while A fails to confirm C, or more formally:
+
+1. $P(B|A)>P(B)$
+1. $P(C|B)>P(C)$
+1. $P(C|A)\ngtr P(C)$
+
+Still, there is a growing number of conditions in the literature
 under which this cannot happen, some of which are surprisingly weak. This raises the question how prevalent the phenomenon of transitivity-failure is: perhaps, Bayesian confirmation is transitive *in most cases*?
 
 This repo provides the code for a Monte Carlo approximation of the prevalence of transitivity-failure. Results for other inference patterns from non-monotonic reasoning and the logic of conditionals are also provided. 
@@ -20,6 +26,8 @@ Two types of prevalence values are calculated:
 1. *Conjunctive Prevalence* reflects how likely it is that the antecedent of an inference pattern is satisfied *and* the consequent of that pattern is violated.
 
 1. *Conditional Prevalence* reflects how likely it is that the consequent of an inference pattern is violated *if* the antecedent of that pattern is satisfied.
+
+The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals.
 
 <table id="T_2c408">
   <thead>
