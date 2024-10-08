@@ -29,72 +29,73 @@ Two types of prevalence values are calculated:
 
 The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals.
 
-<table id="T_2c408">
+<table id="T_2382b">
   <thead>
     <tr>
-      <th id="T_2c408_level0_col0" class="col_heading level0 col0" >Label</th>
-      <th id="T_2c408_level0_col1" class="col_heading level0 col1" >Pattern</th>
-      <th id="T_2c408_level0_col2" class="col_heading level0 col2" >Conjunctive Prevalence</th>
-      <th id="T_2c408_level0_col3" class="col_heading level0 col3" >Conditional Prevalence</th>
+      <th id="T_2382b_level0_col0" class="col_heading level0 col0" >Label</th>
+      <th id="T_2382b_level0_col1" class="col_heading level0 col1" >Pattern</th>
+      <th id="T_2382b_level0_col2" class="col_heading level0 col2" >Conjunctive Prevalence</th>
+      <th id="T_2382b_level0_col3" class="col_heading level0 col3" >Conditional Prevalence</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_2c408_row0_col0" class="data row0 col0" >Transitivity</td>
-      <td id="T_2c408_row0_col1" class="data row0 col1" >If A > B and B > C, then A > C.</td>
-      <td id="T_2c408_row0_col2" class="data row0 col2" >0.089480</td>
-      <td id="T_2c408_row0_col3" class="data row0 col3" >0.357848</td>
+      <td id="T_2382b_row0_col0" class="data row0 col0" >Transitivity</td>
+      <td id="T_2382b_row0_col1" class="data row0 col1" >If A > B and B > C,<br> then A > C.</td>
+      <td id="T_2382b_row0_col2" class="data row0 col2" >0.090088</td>
+      <td id="T_2382b_row0_col3" class="data row0 col3" >0.360805</td>
     </tr>
     <tr>
-      <td id="T_2c408_row1_col0" class="data row1 col0" >Conjunctive Transitivity</td>
-      <td id="T_2c408_row1_col1" class="data row1 col1" >If A > B and B > C, then A-and-B > C.</td>
-      <td id="T_2c408_row1_col2" class="data row1 col2" >0.056161</td>
-      <td id="T_2c408_row1_col3" class="data row1 col3" >0.224599</td>
+      <td id="T_2382b_row1_col0" class="data row1 col0" >Conjunctive Transitivity</td>
+      <td id="T_2382b_row1_col1" class="data row1 col1" >If A > B and B > C,<br> then A-and-B > C.</td>
+      <td id="T_2382b_row1_col2" class="data row1 col2" >0.056521</td>
+      <td id="T_2382b_row1_col3" class="data row1 col3" >0.226368</td>
     </tr>
     <tr>
-      <td id="T_2c408_row2_col0" class="data row2 col0" >Conditional Transitivity</td>
-      <td id="T_2c408_row2_col1" class="data row2 col1" >If A > B and B > C, then A > C conditional on B.</td>
-      <td id="T_2c408_row2_col2" class="data row2 col2" >0.110393</td>
-      <td id="T_2c408_row2_col3" class="data row2 col3" >0.441484</td>
+      <td id="T_2382b_row2_col0" class="data row2 col0" >Conditional Transitivity</td>
+      <td id="T_2382b_row2_col1" class="data row2 col1" >If A > B and B > C,<br> then A > C conditional on B.</td>
+      <td id="T_2382b_row2_col2" class="data row2 col2" >0.110390</td>
+      <td id="T_2382b_row2_col3" class="data row2 col3" >0.442115</td>
     </tr>
     <tr>
-      <td id="T_2c408_row3_col0" class="data row3 col0" >Cumulative Transitivity</td>
-      <td id="T_2c408_row3_col1" class="data row3 col1" >If A > B and A-and-B > C, then A > C.</td>
-      <td id="T_2c408_row3_col2" class="data row3 col2" >0.056573</td>
-      <td id="T_2c408_row3_col3" class="data row3 col3" >0.225698</td>
+      <td id="T_2382b_row3_col0" class="data row3 col0" >Cumulative Transitivity</td>
+      <td id="T_2382b_row3_col1" class="data row3 col1" >If A > B and A-and-B > C,<br> then A > C.</td>
+      <td id="T_2382b_row3_col2" class="data row3 col2" >0.056564</td>
+      <td id="T_2382b_row3_col3" class="data row3 col3" >0.226521</td>
     </tr>
     <tr>
-      <td id="T_2c408_row4_col0" class="data row4 col0" >Agglomeration</td>
-      <td id="T_2c408_row4_col1" class="data row4 col1" >If B > A and B > C, then B > A-and-C.</td>
-      <td id="T_2c408_row4_col2" class="data row4 col2" >0.024874</td>
-      <td id="T_2c408_row4_col3" class="data row4 col3" >0.099476</td>
+      <td id="T_2382b_row4_col0" class="data row4 col0" >Agglomeration</td>
+      <td id="T_2382b_row4_col1" class="data row4 col1" >If B > A and B > C,<br> then B > A-and-C.</td>
+      <td id="T_2382b_row4_col2" class="data row4 col2" >0.024918</td>
+      <td id="T_2382b_row4_col3" class="data row4 col3" >0.099797</td>
     </tr>
     <tr>
-      <td id="T_2c408_row5_col0" class="data row5 col0" >Cautious Monotonicity</td>
-      <td id="T_2c408_row5_col1" class="data row5 col1" >If B > A and B > C, then B-and-C > A.</td>
-      <td id="T_2c408_row5_col2" class="data row5 col2" >0.056277</td>
-      <td id="T_2c408_row5_col3" class="data row5 col3" >0.225063</td>
+      <td id="T_2382b_row5_col0" class="data row5 col0" >Cautious Monotonicity</td>
+      <td id="T_2382b_row5_col1" class="data row5 col1" >If B > A and B > C,<br> then B-and-C > A.</td>
+      <td id="T_2382b_row5_col2" class="data row5 col2" >0.056716</td>
+      <td id="T_2382b_row5_col3" class="data row5 col3" >0.227149</td>
     </tr>
     <tr>
-      <td id="T_2c408_row6_col0" class="data row6 col0" >Rational Monotonicity</td>
-      <td id="T_2c408_row6_col1" class="data row6 col1" >If B > A and B does not confirm non-C, then B-and-C > A.</td>
-      <td id="T_2c408_row6_col2" class="data row6 col2" >0.056277</td>
-      <td id="T_2c408_row6_col3" class="data row6 col3" >0.225063</td>
+      <td id="T_2382b_row6_col0" class="data row6 col0" >Rational Monotonicity</td>
+      <td id="T_2382b_row6_col1" class="data row6 col1" >If B > A and B does not confirm non-C,<br> then B-and-C > A.</td>
+      <td id="T_2382b_row6_col2" class="data row6 col2" >0.056716</td>
+      <td id="T_2382b_row6_col3" class="data row6 col3" >0.227149</td>
     </tr>
     <tr>
-      <td id="T_2c408_row7_col0" class="data row7 col0" >Corroboration</td>
-      <td id="T_2c408_row7_col1" class="data row7 col1" >If A > B and C > B, then A > B conditional on C and C > B conditional on A</td>
-      <td id="T_2c408_row7_col2" class="data row7 col2" >0.091638</td>
-      <td id="T_2c408_row7_col3" class="data row7 col3" >0.366479</td>
+      <td id="T_2382b_row7_col0" class="data row7 col0" >Corroboration</td>
+      <td id="T_2382b_row7_col1" class="data row7 col1" >If A > B and C > B,<br> then A > B conditional on C and C > B conditional on A</td>
+      <td id="T_2382b_row7_col2" class="data row7 col2" >0.091546</td>
+      <td id="T_2382b_row7_col3" class="data row7 col3" >0.366645</td>
     </tr>
     <tr>
-      <td id="T_2c408_row8_col0" class="data row8 col0" >Amalgamation</td>
-      <td id="T_2c408_row8_col1" class="data row8 col1" >If A > B and C > B, then A-or-C > B.</td>
-      <td id="T_2c408_row8_col2" class="data row8 col2" >0.025170</td>
-      <td id="T_2c408_row8_col3" class="data row8 col3" >0.100660</td>
+      <td id="T_2382b_row8_col0" class="data row8 col0" >Amalgamation</td>
+      <td id="T_2382b_row8_col1" class="data row8 col1" >If A > B and C > B,<br> then A-or-C > B.</td>
+      <td id="T_2382b_row8_col2" class="data row8 col2" >0.025002</td>
+      <td id="T_2382b_row8_col3" class="data row8 col3" >0.100134</td>
     </tr>
   </tbody>
 </table>
+
 
 So, even though transitivity is not generally valid for Bayesian confirmation, transitivity-style inferences are more likely right than wrong. Nevertheless, they are more likely wrong than instances of other inference patterns.
 
