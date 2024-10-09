@@ -21,13 +21,16 @@ A penultimate version of the paper can be found here:
 
 ## Results
 
+![alt text](transitivity_plot.svg)
+
 Two types of prevalence values are calculated:
 
 1. *Conjunctive Prevalence* reflects how likely it is that the antecedent of an inference pattern is satisfied *and* the consequent of that pattern is violated.
 
 1. *Conditional Prevalence* reflects how likely it is that the consequent of an inference pattern is violated *if* the antecedent of that pattern is satisfied.
 
-The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals.
+
+The plot above shows how the values stabilize after 10,000 probability distributions. The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals.
 
 <table id="T_78401">
   <thead>
