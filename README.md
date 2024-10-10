@@ -2,7 +2,9 @@
 
 It is a well-known fact among researchers working with probability calculus that transitivity can *fail* for Bayesian confirmation. That is, it is possible that A confirms B and B confirms C while A fails to confirm C, or graphically: 
 
-![alt text](chain.svg)
+<p align="center">
+<img src="chain.svg" alt="drawing" width="300"/>
+</p>
 
 More formally, transitiviy-failure is any case where the following conditions are jointly satisfied:
 
