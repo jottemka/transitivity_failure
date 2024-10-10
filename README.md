@@ -30,7 +30,7 @@ Two types of prevalence values are calculated:
 1. *Conditional Prevalence* reflects how likely it is that the consequent of an inference pattern is violated *if* the antecedent of that pattern is satisfied.
 
 
-The plot above shows how the values stabilize after 10,000 probability distributions. The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals.
+The plot above shows how the prevalence values for transitivity stabilize after 10,000 probability distributions. The table below also shows the results for other patterns from non-monotonic reasoning and the logic of conditionals. Notice that $A > B$ abbreviates that $A$ confirms $B$ and $A >_C B$ abbreviates that $A$ confirms $B$ conditional on $C$.
 
 <table id="T_d894f">
   <thead>
