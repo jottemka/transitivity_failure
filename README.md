@@ -50,49 +50,49 @@ The plot above shows how the values stabilize after 10,000 probability distribut
     </tr>
     <tr>
       <td id="T_d894f_row1_col0" class="data row1 col0" >Conjunctive Transitivity</td>
-      <td id="T_d894f_row1_col1" class="data row1 col1" >If A > B and B > C,<br>then A∧B > C.</td>
+      <td id="T_d894f_row1_col1" class="data row1 col1" >If $A > B$ and $B > C$,<br>then $A∧B > C$.</td>
       <td id="T_d894f_row1_col2" class="data row1 col2" >0.056351</td>
       <td id="T_d894f_row1_col3" class="data row1 col3" >0.225455</td>
     </tr>
     <tr>
       <td id="T_d894f_row2_col0" class="data row2 col0" >Conditional Transitivity</td>
-      <td id="T_d894f_row2_col1" class="data row2 col1" >If A > B and B > C,<br>then A > C conditional on B.</td>
+      <td id="T_d894f_row2_col1" class="data row2 col1" >If $A > B$ and $B > C$,<br>then $A >_B C$.</td>
       <td id="T_d894f_row2_col2" class="data row2 col2" >0.110268</td>
       <td id="T_d894f_row2_col3" class="data row2 col3" >0.441173</td>
     </tr>
     <tr>
       <td id="T_d894f_row3_col0" class="data row3 col0" >Cumulative Transitivity</td>
-      <td id="T_d894f_row3_col1" class="data row3 col1" >If A > B and A∧B > C,<br>then A > C.</td>
+      <td id="T_d894f_row3_col1" class="data row3 col1" >If $A > B$ and $A∧B > C$,<br>then $A > C$.</td>
       <td id="T_d894f_row3_col2" class="data row3 col2" >0.056489</td>
       <td id="T_d894f_row3_col3" class="data row3 col3" >0.225832</td>
     </tr>
     <tr>
       <td id="T_d894f_row4_col0" class="data row4 col0" >Agglomeration</td>
-      <td id="T_d894f_row4_col1" class="data row4 col1" >If B > A and B > C,<br>then B > A∧C.</td>
+      <td id="T_d894f_row4_col1" class="data row4 col1" >If $B > A$ and $B > C$,<br>then $B > A∧C$.</td>
       <td id="T_d894f_row4_col2" class="data row4 col2" >0.025136</td>
       <td id="T_d894f_row4_col3" class="data row4 col3" >0.100567</td>
     </tr>
     <tr>
       <td id="T_d894f_row5_col0" class="data row5 col0" >Cautious Monotonicity</td>
-      <td id="T_d894f_row5_col1" class="data row5 col1" >If B > A and B > C,<br>then B∧C > A.</td>
+      <td id="T_d894f_row5_col1" class="data row5 col1" >If $B > A$ and $B > C$,<br>then $B∧C > A$.</td>
       <td id="T_d894f_row5_col2" class="data row5 col2" >0.056483</td>
       <td id="T_d894f_row5_col3" class="data row5 col3" >0.225984</td>
     </tr>
     <tr>
       <td id="T_d894f_row6_col0" class="data row6 col0" >Rational Monotonicity</td>
-      <td id="T_d894f_row6_col1" class="data row6 col1" >If B > A and B ≯ ¬C,<br>then B∧C > A.</td>
+      <td id="T_d894f_row6_col1" class="data row6 col1" >If $B > A$ and $B \ngtr \neg C$,<br>then $B∧C > A$.</td>
       <td id="T_d894f_row6_col2" class="data row6 col2" >0.056483</td>
       <td id="T_d894f_row6_col3" class="data row6 col3" >0.225984</td>
     </tr>
     <tr>
       <td id="T_d894f_row7_col0" class="data row7 col0" >Corroboration</td>
-      <td id="T_d894f_row7_col1" class="data row7 col1" >If A > B and C > B,<br>then A > B conditional on C and C > B conditional on A</td>
+      <td id="T_d894f_row7_col1" class="data row7 col1" >If $A > B$ and $C > B$,<br>then A >_C B  and C >_A B</td>
       <td id="T_d894f_row7_col2" class="data row7 col2" >0.091586</td>
       <td id="T_d894f_row7_col3" class="data row7 col3" >0.366428</td>
     </tr>
     <tr>
       <td id="T_d894f_row8_col0" class="data row8 col0" >Amalgamation</td>
-      <td id="T_d894f_row8_col1" class="data row8 col1" >If A > B and C > B,<br>then A∨C > B.</td>
+      <td id="T_d894f_row8_col1" class="data row8 col1" >If $A > B$ and $C > B$,<br>then $A∨C > B$.</td>
       <td id="T_d894f_row8_col2" class="data row8 col2" >0.025011</td>
       <td id="T_d894f_row8_col3" class="data row8 col3" >0.100067</td>
     </tr>
